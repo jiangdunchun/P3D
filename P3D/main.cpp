@@ -13,7 +13,7 @@ int main() {
 
 
     RenderContextDesc context_desc;
-    context_desc.resolution = {600, 600};
+    context_desc.resolution = {1920, 1080};
     IRenderContext   *context = render->createRenderContext(context_desc);
     ISurface         *window  = context->getSurface();
     window->setTitle("hello triangle");
